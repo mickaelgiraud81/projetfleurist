@@ -1,0 +1,524 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.haut {
+
+    background: rgb(216, 211, 211);
+    height: 30px;
+}
+
+.haut > h4 {
+
+    margin-left: 100px;
+    padding-top: 4px;
+}
+
+.girone {
+
+    background: white;
+    border: 1px rgb(252, 249, 249) solid;  
+    height: 85px;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gir {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gir > img {
+
+    position: absolute;
+    top: 30px;
+}
+
+.gir > h4 {
+
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+
+ul {
+
+    padding: 0;
+    display: inline;
+   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
+
+
+
+.entete {
+
+    background-image: url(medias/Sans\ titre-1.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+   background-position: center;
+   
+}
+
+.entetecontener {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 150px 0px 0px 150px;
+    
+}
+
+.command {
+
+    font-size: 34px;
+    
+    
+}
+
+.tel {
+
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.delivery > p {
+
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.prestacontener {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.titrepresta  {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.titrepresta > h1 {
+
+    font-family: 'elephantwild';
+    text-align: center;
+    margin: 50px 25px 30px 25px;
+    font-size: 50px;
+}
+
+.titrepresta > p {
+
+    width: 200px;
+    text-align: center;
+}
+
+.florone > img {
+
+   margin-top: 70px;
+    width: 300px;
+   
+}
+
+.flortwo > img {
+
+  margin-top: 70px;
+  width: 300px;
+}
+
+
+#middle {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#floral {
+
+    height: 250px;
+}
+
+.benefits > .pictures >img{
+
+    width: 200px;
+    overflow: hidden;
+}
+
+.benefits {
+
+    margin-top: 50px;
+    width: 200px;
+   border: 2px rgb(204, 197, 197) solid;
+}
+
+.benefits > h4 {
+
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.pictures {
+
+    height: 150px;
+    overflow: hidden;
+    
+}
+
+
+
+.info {
+
+    background: rgb(230, 223, 223);
+    border: 5px white solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+
+
+.adress {
+
+    text-align: center;
+ }  
+ 
+ .adress > h3 {
+
+    font-size: 25px;
+ }
+.adress > p {
+
+    font-size: 20px;
+}
+
+
+
+.timetable {
+
+    text-align: center;
+}
+
+.timetable > h3{
+
+    font-size: 25px;
+}
+
+.timetable > p {
+
+    font-size: 20px;
+}
+
+.timetabletwo {
+
+    text-align: center;
+    margin: 10px 0;
+}
+
+.timetabletwo > p {
+
+    font-size: 20px;
+}
+
+.form {
+
+   background-color: rgb(206, 199, 199);
+}
+
+.form > h2 {
+
+    text-align: center;
+}
+
+.form > form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > label, form > input {
+
+    width: 50%;
+    max-width: 300px;
+}
+
+.form > form > label {
+
+    margin-top: 10px;
+}
+
+.form > form > input {
+
+    height: 30px;
+}
+
+.envoi > input {
+
+    width: 90px;
+    height: 40px;
+    margin: 20px auto 10px auto;
+}
+
+
+
+
+
+footer {
+
+    background: rgb(245, 242, 242);
+    border: 5px gray solid;  
+    height: 35px;
+}
+
+footer > p {
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+@font-face {
+
+    font-family: 'elephantwild';
+    src: url('/src/Elephant\ Whild.ttf') format(truetype);
+}
+
+@media all and (max-width: 950px) {
+
+   .girone {
+       flex-wrap: wrap;
+       height: 150px;
+   }
+
+   .gir > img {
+
+    position: initial;
+   
+}
+
+    .gir > h4 {
+
+        top: -20px;
+    }
+
+}
+
+@media all and (max-width: 590px) {
+
+    li {
+
+        margin: 20px 5px;
+    }
+
+    .entetecontener {
+
+        padding: 50px 0px 0px 0px;
+    }
+
+    .entete {
+
+        height: 400px;
+    }
+
+    .command {
+
+        font-size: 24px;
+        
+        
+    }
+    
+    .tel {
+    
+        font-size: 15px;
+        
+    }
+    
+    .delivery > p {
+    
+        font-size: 15px;
+        padding: 8px 0px;
+    }
+
+    .benefits {
+
+        width: 100px;
+    }
+    
+    .benefits > .pictures >img {
+
+        width: 100px; 
+        overflow: hidden;
+    }
+
+    .pictures {
+        height: 80px;
+        overflow: hidden;
+    }
+
+    #floral {
+         height: auto; 
+    }
+
+    
+
+}
+
+@media all and (max-width: 500px) {
+
+    
+
+    .entete {
+
+        background-image: url(medias/Sans\ titre-1.png);
+        background-repeat: no-repeat;
+        height: auto;
+        
+       background-position: center;
+       
+    }
+
+    .command {
+
+        font-size: 25px;
+        
+    }
+
+    .tel {
+
+        font-size: 20px;
+        padding: 30px 0;
+    }
+    
+    .delivery > p {
+    
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .prestacontener {
+
+        display: flex;
+    }
+
+    .florone > img {
+
+        margin-top: 70px;
+         width: 150px;
+        
+     }
+
+     .flortwo > img {
+
+        margin-top: 70px;
+        width: 150px;
+      }
+
+      .titrepresta > h1 {
+
+        margin: 50px 10px 30px 10px;
+        font-size: 30px;
+    }
+
+    .titrepresta > p {
+
+        text-align: center;
+        font-size: 15px;
+    }
+    
+}
+
+@media all and (max-width: 485px) {
+
+    .prestacontener {
+
+        flex-wrap: wrap;
+    }
+
+    .haut > h4 {
+
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .entetecontener {
+
+        width: auto;
+    }
+
+    .adress {
+
+        text-align: center;
+     }  
+     
+     .adress > h3 {
+    
+        font-size: 20px;
+     }
+    .adress > p {
+    
+        font-size: 15px;
+    }
+    
+    
+    
+    .timetable {
+    
+        text-align: center;
+    }
+    
+    .timetable > h3{
+    
+        font-size: 20px;
+    }
+    
+    .timetable > p {
+    
+        font-size: 15px;
+    }
+    
+    .timetabletwo {
+    
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .timetabletwo > p {
+    
+        font-size: 15px;
+    }
+}
+
+
+
